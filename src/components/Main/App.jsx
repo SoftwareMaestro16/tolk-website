@@ -2,6 +2,7 @@ import styles from "./App.module.scss";
 import Code from '../CodeExample/Code';
 import Header from "../Header/Header";
 import QuestionBlock from "../QuestionBlock/QuestionBlock";
+import Footer from "../Footer/Footer";
 
 function App() {
 
@@ -20,11 +21,9 @@ function App() {
         <QuestionBlock />
 
       </div>
+      <br />
 
-      <br />
-      <br />
-      <br />
-      
+      <Footer />
     </>
   )
 }
