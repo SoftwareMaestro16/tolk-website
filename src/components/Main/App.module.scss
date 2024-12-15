@@ -84,27 +84,27 @@ body {
     font-size: clamp(23px, 1vw, 42px);
     font-weight: 600;
     color: #ffffff;
-    max-width: 58vw; /* Ограничение по ширине */
+    max-width: 66vw; 
     text-align: left;
   
     line-height: 1.3;
   
-    /* Ограничиваем текст двумя строками */
+    
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   
-    /* Убираем многоточие */
+    
     overflow: hidden;
-    text-overflow: clip; /* Убирает "..." */
+    text-overflow: clip;
 
     @media (max-width: 50vw) {
-      font-size: clamp(22px, 3.6vw, 35px); /* Новый размер шрифта */
+      font-size: clamp(22px, 3.6vw, 35px); 
       max-width: 42vw;
     }
 
     @media (min-width: 80vw) {
-      font-size: clamp(22px, 3.6vw, 40px); /* Новый размер шрифта */
+      font-size: clamp(22px, 3.6vw, 40px); 
       max-width: 52vw;
     }
   }

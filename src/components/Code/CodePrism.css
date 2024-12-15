@@ -20,6 +20,14 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 
+@media (max-width: 768px) {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        font-weight: 400; 
+        font-size: 1em; 
+    }
+}
+
 /* Code blocks */
 pre[class*="language-"] {
 	padding: .4em .8em;
