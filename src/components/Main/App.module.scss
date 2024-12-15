@@ -8,57 +8,6 @@ body {
   font-family: 'Inter', system-ui;
 }
 
-.navStyle {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  background-color: #1e2028;
-  height: 8.2vh;
-  padding: 0 7%;
-  width: 100%;
-  box-sizing: border-box;
-  
-  .leftPart {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-
-    h1 {
-      color: white;
-      font-size: 38px;
-    }
-
-    .tolkLogo {
-      width: 35px;
-      height: 35px;
-    }
-  }
-
-  .rightPart {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 22px;
-    h1 {
-      font-size: 26px;
-      font-weight: 500;
-      color: #ffffff;
-    }
-
-    a {
-      text-decoration: none; 
-      color: white; 
-    }
-
-  }
-
-}
-
 .content {
   padding: 0 11%;
 

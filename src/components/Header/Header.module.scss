@@ -1,0 +1,106 @@
+.navStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #1e2028;
+    height: 8.2vh;
+    padding: 0 7%;
+    width: 100%;
+    box-sizing: border-box;
+    
+    .leftPart {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+  
+      h1 {
+        color: white;
+        font-size: 38px;
+      }
+  
+      .tolkLogo {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  
+    .rightPart {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      h1 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #ffffff;
+      }
+  
+      a {
+        text-decoration: none; 
+        color: white; 
+      }
+  
+    }
+  
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+  
+      .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .rightPart {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #1e2028;
+        padding: 10px;
+        width: 50%;
+        z-index: 10;
+  
+  
+        &.menuOpen {
+          display: flex;
+          flex-direction: column;
+          border-radius: 12px;
+          width: 27vw;
+          z-index: 10;
+          
+          a, h1 { 
+            margin: 2px 0; 
+          }
+          
+        }
+      }
+  
+      .hamburger {
+        display: flex;
+      }
+    }
+  
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1a9e; 
+    z-index: 9; 
+    cursor: pointer; 
+  }
