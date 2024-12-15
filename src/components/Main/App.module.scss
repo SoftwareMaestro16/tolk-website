@@ -60,7 +60,11 @@ body {
 }
 
 .content {
-  padding: 0 10%;
+  padding: 0 11%;
+
+  @media (max-width: 768px) {
+    padding: 0 6%; 
+  }
 }
 
 .description {
@@ -107,6 +111,10 @@ body {
       font-size: clamp(22px, 3.6vw, 40px); 
       max-width: 52vw;
     }
+  }
+
+  @media (max-width: 768px) {
+    
   }
 
   @keyframes gradient-shift {
