@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Code.module.scss";
 import Prism from "prismjs";
-import "prismjs/themes/prism-funky.css";
+import "./CodePrism.css";
 import "prismjs/components/prism-c"; 
 import "prismjs/components/prism-typescript";
 

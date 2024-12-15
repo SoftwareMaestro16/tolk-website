@@ -1,0 +1,145 @@
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.15em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	font-weight: 500;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: .4em .8em;
+	margin: .5em 0;
+	overflow: auto;
+	background: transparent !important;
+	background-size: none;
+}
+
+code[class*="language-"] {
+	background: transparent !important;
+	color: white;
+	box-shadow: none;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .2em;
+	border-radius: .3em;
+	box-shadow: none;
+	white-space: normal;
+	background: transparent !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #aaa;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.boolean,
+.token.constant,
+.token.symbol {
+	color: #0cf;
+}
+
+/* Названия переменных (голубой цвет) */
+.token.variable {
+	color: #61afef;
+}
+
+/* Названия функций и ключевые слова объявления (фиолетовый цвет) */
+.token.function,
+.token.keyword {
+	color: #38a7da;
+}
+
+/* Типы данных (розовый цвет) */
+.token.class-name,
+.token.type {
+	color: pink;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+	color: rgb(135, 147, 238);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.token.inserted {
+	color: rgb(211, 185, 237);
+}
+
+.token.atrule,
+.token.attr-value {
+	color: deeppink;
+}
+
+.token.regex,
+.token.important {
+	color: orange;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.deleted {
+	color: red;
+}
+
+.token.keyword {
+    color: rgb(224, 105, 210) !important; /* Розовый цвет для ключевых слов */
+    
+}
+
+/* Plugin styles: Diff Highlight */
+pre.diff-highlight.diff-highlight > code .token.deleted:not(.prefix),
+pre > code.diff-highlight.diff-highlight .token.deleted:not(.prefix) {
+	background-color: rgba(255, 0, 0, .3);
+	display: inline;
+}
+
+pre.diff-highlight.diff-highlight > code .token.inserted:not(.prefix),
+pre > code.diff-highlight.diff-highlight .token.inserted:not(.prefix) {
+	background-color: rgba(0, 255, 128, .3);
+	display: inline;
+}

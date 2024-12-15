@@ -17,6 +17,8 @@ body {
   background-color: #1e2028;
   height: 8.2vh;
   padding: 0 7%;
+  width: 100%;
+  box-sizing: border-box;
   
   .leftPart {
     display: flex;
@@ -41,8 +43,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 25px;
-
+    gap: 22px;
     h1 {
       font-size: 26px;
       font-weight: 500;
@@ -59,7 +60,7 @@ body {
 }
 
 .content {
-  padding: 0 13%;
+  padding: 0 10%;
 }
 
 .description {
