@@ -24,9 +24,33 @@ function Header() {
               <div className={styles.bar}></div>
             </div>
             <div className={`${styles.rightPart} ${menuOpen ? styles.menuOpen : ''}`}>
-              <h1><a href="#docs">Docs</a></h1>
-              <h1><a href="#github">GitHub</a></h1>
-              <h1><a href="#extension">Extension</a></h1>
+                <h1>
+                    <a
+                    href="https://docs.ton.org/v3/documentation/smart-contracts/tolk/overview"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    Docs
+                    </a>
+                </h1>
+                <h1>
+                    <a
+                    href="https://github.com/ton-blockchain/tolk-js"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    GitHub
+                    </a>
+                </h1>
+                <h1>
+                    <a
+                    href="https://marketplace.visualstudio.com/items?itemName=ton-core.tolk-vscode"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    Extension
+                    </a>
+                </h1>
             </div>
           </nav>
         </header>
