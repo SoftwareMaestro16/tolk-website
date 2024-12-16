@@ -1,10 +1,12 @@
+$second-color: #1e2028;
+
 .navStyle {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    background-color: #1e2028;
+    background-color: $second-color;
     height: 8.2vh;
     padding: 0 7%;
     width: 100vw;

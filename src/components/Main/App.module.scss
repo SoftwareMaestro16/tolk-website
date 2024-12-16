@@ -1,7 +1,9 @@
+$main-color: #17181e;
+
 body {
   margin: 0 auto;
   text-align: center;
-  background-color: #17181e;
+  background-color: $main-color;
 }
 
 * {
@@ -51,15 +53,14 @@ body {
 
     @media (max-width: 50vw) {
       font-size: clamp(24px, 3.6vw, 35px); 
-      max-width: 50vw;
+      max-width: 40vw;
     }
 
     @media (min-width: 80vw) {
       font-size: clamp(22px, 3.6vw, 43px); 
       max-width: 630px;
     }
-
-    
+  
   }
 
   @media (max-width: 768px) {
@@ -69,7 +70,7 @@ body {
     h2 {
       margin: 0px; 
       margin-left: 5px;
-      max-width: 75vw;
+      max-width: 61vw;
       font-size: 24px;
     }
   }

@@ -18,6 +18,16 @@
         margin: 0;
         font-weight: 400;
         font-size: 21px;
+        padding-right: 20vw;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+    
+        h2 {
+          padding-right: 0;
+        }
       }
     }
   }
