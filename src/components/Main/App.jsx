@@ -21,6 +21,8 @@ function App() {
         <QuestionBlock />
 
       </div>
+      
+      <br />
       <br />
 
       <Footer />
