@@ -5,14 +5,14 @@ function QuestionBlock() {
 
     return (
         <>
-            {questions.map((value) => (
-                <div className={styles.questionsList}>
+            <div className={styles.questionsList}>
+                {questions.map((value) => (
                     <div key={value.id} className={styles.question}>
                         <h1>{value.question}</h1>
                         <h2>{value.answer}</h2>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </> 
     );
 }
