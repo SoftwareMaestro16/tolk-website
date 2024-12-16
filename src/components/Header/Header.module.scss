@@ -48,7 +48,7 @@ $second-color: #1e2028;
         text-decoration: none; 
         color: white; 
         text-transform: uppercase;
-        font-size: 24px;
+        font-size: 22.5px;
       }
   
     }
@@ -83,7 +83,7 @@ $second-color: #1e2028;
           display: flex;
           flex-direction: column;
           border-radius: 12px;
-          width: 27vw;
+          width: 30vw;
           z-index: 10;
           
           a, h1 { 
@@ -97,16 +97,15 @@ $second-color: #1e2028;
         display: flex;
       }
     }
+}
   
-  }
-  
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #1a1a1a9e; 
-    z-index: 9; 
-    cursor: pointer; 
-  }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1a1a9e; 
+  z-index: 9; 
+  cursor: pointer; 
+}
